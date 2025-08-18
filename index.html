@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BridgerSilk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="cursor-glow"></div>
+    <div id="pixel-glow"></div>
+
+    <header class="header">
+        <a href="#home" class="logo">BridgerSilk<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h3>Hello, I am</h3>
+                <h1>BridgerSilk</h1>
+                <h3>And I'm a <span id="role"></span></h3>
+                <p>I build modern and functional websites, Minecraft plugins, mods and other neat projects. I love turning problems into solutions!</p>
+                <div class="social-links">
+                    <a href="https://github.com/BridgerSilk"><i class='bx bxl-github'></i></a>
+                    <a href="https://ko-fi.com/bridgersilk"><i class='bx bxl-paypal'></i></a>
+                    <a href="https://discord.com/users/868195000524107806"><i class='bx bxl-discord'></i></a>
+                </div>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </section>
+
+        <section class="about scroll-reveal content-section" id="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                 <p>I’m a Minecraft plugin and mod developer, a web developer, and a server administrator. I’m really into networking projects and I’m currently working on a Minecraft hosting solution. In my free time, I like playing guitar, going hiking, and playing all kinds of video games.</p>
+            </div>
+            <div class="skills-container scroll-reveal">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Java / Kotlin</li>
+                        <li>C#</li>
+                        <li>HTML / CSS / SASS</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Ruby</li>
+                        <li>Lua</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul>
+                        <li>Bukkit API / Paper API</li>
+                        <li>Node.js / Three.js</li>
+                        <li>MongoDB / PostgreSQL / MariaDB</li>
+                        <li>Bootstrap / TailwindCSS</li>
+                        <li>.NET</li>
+                        <li>Numpy / Matplotlib</li>
+                        <li>Git</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="experience scroll-reveal content-section" id="experience">
+            <h2 class="section-title">My <span>Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <p class="timeline-date">Nov 2023 - Present</p>
+                        <h3>Freelance Developer</h3>
+                        <h4>-</h4>
+                        <p>Developing functional websites, Minecraft plugins or mods and other software for clients on request.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <p class="timeline-date">Apr 2023 - Present</p>
+                        <h3>Minecraft Hosting Founder</h3>
+                        <h4>WorldHost</h4>
+                        <p>Building and developing a unique hosting solution for Minecraft worlds completely from scratch. I handle both the technical and management side, from designing the backend systems, writing code, and optimizing performance, to managing a team of developers and moderators. I also focus on making the platform easy to use for everyone.</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-content">
+                        <p class="timeline-date">Jun 2022 - Apr 2023</p>
+                        <h3>Builder</h3>
+                        <h4>QuadFlame Network (Minecraft)</h4>
+                        <p>Built maps for a large Minecraft Network of over 1,000 members. Additionally also resolved user conflicts and player reports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects scroll-reveal content-section" id="projects">
+            <h2 class="section-title">Latest <span>Projects</span></h2>
+            <div class="timeline">
+                 <div class="timeline-item">
+                    <div class="timeline-content project-content">
+                        <p class="timeline-date">Q3 2025</p>
+                        <h3>LessLag</h3>
+                        <p>An all-in-one Minecraft performance optimization plugin, fixing common lag causes on Paper Servers.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Bukkit API</span>
+                        </div>
+                         <a href="https://github.com/BridgerSilk/LessLag"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-content project-content">
+                        <p class="timeline-date">Q2 2025</p>
+                        <h3>PyBlock</h3>
+                        <p>A Minecraft plugin allowing users to create server side scripts using python.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>Bukkit API</span>
+                        </div>
+                        <a href="https://github.com/BridgerSilk/PyBlock"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-content project-content">
+                        <p class="timeline-date">Q1 2025</p>
+                        <h3>ASCII Renderer</h3>
+                        <p>A terminal based 3d renderer using ascii characters made with C++.</p>
+                         <div class="project-tech">
+                            <span>C++</span>
+                        </div>
+                        <a href="https://github.com/BridgerSilk/ascii_renderer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact scroll-reveal content-section" id="contact">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <p class="contact-message">Have a project in mind or just want to say hello? My inbox is always open.</p>
+             <a href="mailto:bridgersilk.dev@gmail.com" class="btn">bridgersilk.dev@gmail.com</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 BridgerSilk. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
